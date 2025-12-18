@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/icon/wellness-dokita-icon.png">
+    <title>Wellness Dokita</title>
+
+    <!--iconify connection-->
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+
+    <!--Google Fonts Connection-->
+    <!--Nunito-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!--DM Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <!--local styles-->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="top-navbar">
+        <a class="top-navlogo-link" href="index.html">
+            <div class="t-navbarlogo">
+                <img src="./assets/logo/wellness-dokita-logo.png" alt="Wellness Dokita logo">
+            </div>
+            <p>Wellness Dokita</p>
+        </a>
+
+        <nav id="top-navlinks">
+            <div class="mobile-navicon">
+                <div class="mobile-open">
+                    <iconify-icon icon="fa7-solid:bars"></iconify-icon>
+                </div>
+                <div class="mobile-close">
+                    <iconify-icon icon="mingcute:close-fill"></iconify-icon>
+                </div>
+            </div>
+
+            <!--normal navlink-->
+            <ul class="ul-navlinks-normal">
+                <a href="index.html"><li>Home</li></a>
+                <a href="#about" class="nav-link" data-target=".about-us-section"><li>About</li></a>
+                <a href="#service" class="nav-link" data-target=".services-section"><li>Classes</li></a>
+                <a href="#consultation" class="nav-link" data-target=".products-section"><li>Consult</li></a>
+                <a href="#outreach" class="nav-link" data-target=".testimonial-section"><li>Outreach</li></a>
+                <a href="#footer" class="nav-link" data-target=".footer"><li>Contact</li></a>                        
+            </ul>
+
+            <!--responsive navlink-->
+            <ul class="ul-navlinks">
+                <a href="index.html"><li>Home</li></a>
+                <a href="#about" class="nav-link" data-target=".about-us-section"><li>About</li></a>
+                <a href="#service" class="nav-link" data-target=".services-section"><li>Classes</li></a>
+                <a href="#consultation" class="nav-link" data-target=".products-section"><li>Consult</li></a>
+                <a href="#outreach" class="nav-link" data-target=".testimonial-section"><li>Outreach</li></a>
+                <a href="#footer" class="nav-link" data-target=".footer"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--hero section-->
+    <section id="hero-section">
+
+        <div class="hero-background">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="./assets/background/hero/Wellness Dokita health professionals background video.mp4" type="video/mp4" />
+            </video>
+            <div class="hide-veo"></div>
+            <div class="background-overlay"></div>
+        </div>
+
+        <div class="hero-contents">
+            <div class="hero-t-h">
+                <h1>We make health simple so you can live smarter, spend less, and feel better.</h1>
+                <p>Relatable health education for everyday Nigerians. Learn through stories, apply for life.</p>
+            </div>
+            <div class="hero-button-div">
+                <a href="#" target="_blank" class="jonwc"><div><p>Join our next Whatsapp class</p></div></a>
+                <div class="cta-b-doctor white-btn"><p>Book a Doctor</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section id="about" class="margin-top">
+        <div class="about max-width-unvsal">
+            <h2>About Wellness Dokita</h2>
+            <div class="ab-wrap">        
+                <div class="founder-wellness-dokita">
+                    <div class="foundr-img"><img src="assets/page images/cheerful-ethnic-medic-with-papers.jpg" alt="Founder of Wellness Dokita"></div>
+                    <p>
+                        Founded by a Nigerian doctor, Wellness Dokita makes health easy to understand with relatable analogies like rusty pipes for high blood pressure. We bring health education to markets, WhatsApp, and workplaces, empowering you to take control.
+                    </p>
+                </div>
+                <div class="foundr-tag"><p>"Because your health shouldn't be confusing. When you understand it, you can own it."</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services section-->
+    <section id="service">
+        <div class="service max-width-unvsal">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-cards">
+                    <h3>WhatsApp Classes</h3>
+                    <p>2-week sessions on BP, stress, and more. ₦3,000.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>Join now</div></a>
+                </div>
+                <div class="service-cards">
+                    <h3>Premium Class + Coaching</h3>
+                    <p>In-depth classes with workbook. ₦10,000.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>Upgrade Experience</div></a>
+                </div>
+                <div class="service-cards">
+                    <h3>Monthly Subscription Group</h3>
+                    <p>Ongoing health tips via WhatsApp. ₦2,000/month.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>Join Group</div></a>
+                </div>
+                <div class="service-cards">
+                    <h3>Digital Class Replays</h3>
+                    <p>Access past sessions. ₦1,000–₦1,500.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>Access Library</div></a>
+                </div>
+                <div class="service-cards">
+                    <h3>Book a Doctor</h3>
+                    <p>Virtual or physical consultations. Starts from ₦5,000.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>Book Consultation</div></a>
+                </div>
+                <div class="service-cards">
+                    <h3>Market/Community Outreach</h3>
+                    <p>Custom health talks for your community.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>Join now</div></a>
+                </div>
+                <div class="service-cards">
+                    <h3>Corporate Wellness Plans</h3>
+                    <p>Health programs for your team.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>See Coporate Plans</div></a>
+                </div>
+                <div class="service-cards">
+                    <h3>Executive Concierge Plan</h3>
+                    <p>Personalized wellness for executives.</p>
+                    <a href="#" target="_blank" class="orange-btn"><div>Book Private Wellness</div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--consultation section-->
+    <section id="consultation">
+        <div class="consultation max-width-unvsal">
+            <h2>Need to Speak With a Doctor?</h2>
+            <p>Our trusted doctors offer virtual or in-person consultations in Lagos, explaining health in a way that clicks.</p>
+            <div class="consult-booking-div">
+                <p>Get personalized advice today!</p>
+                <a href="#" target="_blank" class="orange-btn"><div>Book Now</div></a>
+            </div>
+        </div>
+    </section>
+
+    <!--outreach section-->
+    <section id="outreach">
+        <div class="outreach max-width-unvsal">
+            <h2>We Meet You Where You Are</h2>
+            <p>From markets to mobile Wellness Dokita starts with people. Our outreach brings health talks to communities, with WhatsApp follow-ups to keep learning.</p>
+            <div class="slideshow-box"><img class="slide-image" src="" alt="outreach photos"></div>
+            <a href="#" target="_blank" class="orange-btn"><div>Invite Wellness Dokita to your Community</div></a>
+        </div>
+    </section>
+
+    <!--how we teach section-->
+    <section id="tutorial">
+        <div class="tutorial max-width-unvsal">
+            <h2>How We Teach</h2>
+            <div class="tutorial-grid">
+                <div>
+                    <h3>High BP? Think Rusty Pipes!</h3>
+                    <p>High blood pressure is like water struggling through rusty, narrow pipes. Our analogies make health clear.</p>
+                </div>
+                <div class="tutorial-img"><img src="assets/page images/rusty-pipes-closeup.jpg" alt="High blood pressure example image"></div>
+                <div>
+                    <h3>Poor Hydration? Think Beans Grinding!</h3>
+                    <p>Not drinking enough water is like beans stuck in a grinder. We make health stick.</p>
+                </div>
+                <div class="tutorial-img"><img src="assets/page images/front-view-coffee-beans-container.jpg" alt="Poor hydration exmple image"></div>
+            </div>
+            <a href="#" target="_blank" class="orange-btn"><div>Watch Our Teaching Style</div></a>
+        </div>
+    </section>
+
+    <!--testimonial section-->
+    <section id="testimonial">
+        <div class="testimonial max-width-unvsal">
+            <h2>What Our Community Says</h2>
+            <div class="testimonial-grid">
+                <div class="t-grid-card">
+                    <p>"The WhatsApp class on women’s health was so clear! I’m making better choices now."</p>
+                    <h3>— Aisha, Trader, Ife Market</h3>
+                </div>
+                <div class="t-grid-card">
+                    <p>"Our church loved the outreach. Everyone understood the health tips!"</p>
+                    <h3>— Pastor Grace, Enugu</h3>
+                </div>
+                <div class="t-grid-card">
+                    <p>"The corporate plan boosted our team’s energy and focus."</p>
+                    <h3>— HR Manager, Lagos Tech Firm</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--cta section-->
+    <section id="cta">
+        <div class="cta max-width-unvsal">
+            <h2>Take Control of Your Health Today</h2>
+            <p>Join a class or book a doctor to start today</p>
+            <div class="cta-btn-wrap">
+                <a href="#" target="_blank" class="orange-btn"><div>Join a Class</div></a>
+                <div class="cta-b-doctor white-btn"><p>Book a Doctor</p></div>
+            </div>
+            <form action="" id="cta-sub" name="cta-sub">
+                <p>Get health tips straight to your inbox!</p>
+                <div class="cta-form-wrap">
+                    <input type="email" placeholder="Enter your email" name="email" class="i-email">
+                    <input type="submit" text="Subscribe" class="orange-btn">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer max-width-unvsal">
+            <div class="footer-grid">
+                <div class="contact">
+                    <h2>contact Us</h2>
+                    <p>Email: <a href="mailto:mike.momotimi@gmail.com">mike@emaoil.cm</a></p>
+                    <p>Phone: +234</p>
+                </div>
+                <div class="follow">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li><a href="#">WhatsApp</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="quick-lnks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Classes</a></li>
+                        <li><a href="#">Consult</a></li>
+                        <li><a href="#">Outreach</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>Built with love by Wellness Dokita</p>
+        </div>
+    </footer>
+    
+    <script src="./js/navbar.js"></script>
+    <script src="./js/heroslideshow.js"></script>
+</body>
+</html>
